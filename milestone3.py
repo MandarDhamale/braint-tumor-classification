@@ -136,7 +136,7 @@ predictions = Dense(N_CLASSES, activation='softmax')(x)
 # 5. Final Model Assembly
 model = Model(inputs=base_model.input, outputs=predictions)
 
-print("\n--- Novel VGG16-ResNet Hybrid Model Summary (Fixed) ---")
+print("\n--- Novel VGG16-ResNet Hybrid Model Summary ---")
 # model.summary()
 
 # --- STAGE 1: TRAIN TOP LAYERS ---
